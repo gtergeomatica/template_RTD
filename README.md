@@ -11,7 +11,7 @@ Step per la creazione di un manuale readthedocs
 * modificare i file .rst che costituiscono le varie pagine del manuale (esempi di sintassi sono disponibili nel file intro.rst)
 * accedere a readthedocs https://readthedocs.org/
 * andare in *I miei progetti*
-* tasto *Importa un progetto* e selezionare la repository github creata ad hoc al manuale
+* tasto *Importa un progetto* e selezionare la repository github creata ad hoc per il manuale
 * definire eventuali impostazioni (Amministrazione)
 * compilare la versione
 
