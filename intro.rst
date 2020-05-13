@@ -111,10 +111,3 @@ Example of auto-enumerated list:
 #. item 2
 #. item 3
 
-Example of enumerated list:
-
-3. item a
-2. item b
-5. item c
-100. item d
-
