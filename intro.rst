@@ -113,7 +113,7 @@ Example of auto-enumerated list:
 
 Example of enumerated list:
 
-1. item a
+3. item a
 2. item b
 5. item c
 100. item d
