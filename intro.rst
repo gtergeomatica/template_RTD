@@ -11,23 +11,41 @@ Credits
 ------------------------------------------
 
 ..
+    this is a subsection
+    
+Subsection
++++++++++++++++++++++++
+
+..
+    this is a line
+
+"""""""""""""""""""""""""""""""""""""""""""""""
+
+..
+    add an anchor link to a section, below the syntax of the link (:ref:`section-anchor`) then you have to add the line (.. _section-anchor:) where the link must point
+
+Example of anchor to a section :ref:`section-anchor`
+
+..
     add image
 
 .. image:: img/Gter.png
-https://www.gter.it/
+
+..
+    add centerd image
+
+.. image:: img/Gter.png
+  :align: center
 
 
-Text goes here **Bold** *Italic*
+Text goes here **Bold** *Italic* |examplesuperscript|
 
+.. |m2| replace:: example\ :sup:`superscript`\
+
+.. _section-anchor:
 
 Scopo
 ------------------------------------------
-Example of bullet list:
-
-* item 1
-* item 2
-* item 3
-* etc.
 
 ..
     add a note box
@@ -39,31 +57,55 @@ Example of bullet list:
 
 .. seealso:: Example of seealso box.
 
+..
+    add a warning box
+
+.. warning:: Example of warning box.
+
+..
+    add a hint box
+
+.. hint:: Example of hint box.
+
+..
+    add a html code (eg. iframe)
+    
+Example of html iframe
+
 .. raw:: html
 
 	<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-		<iframe src="https://www.youtube.com/embed/Sb5u4Xos638" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+		<iframe src="https://www.gter.it/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 	</div>
-    
-Example of download, file must be in the repository folder :download:`zip <dati/dati_test_CDU.zip>`
+
+   
+Example of download, file must be in the repository folder :download:`png <img/logo.png>`
+
+This is a link to a web page https://www.gter.it/.
+
+This is a link to a `web page. <https://www.gter.it/>`__
+
+..
+    add a code block (e.g. html)
+
+.. code-block:: html
+
+  <b><a href="https://www.gter.it/">link</a></b> - Example of code-block.
 
 """""""""""""""""""""""""""""""""""""""""""""""
 
 Glossario
 ------------------------------------------
+Example of bullet list:
 
-* CDU: Certificato di Destinazione Urbanistica
-* PUC: Piano Urbanistico Comunale
-* PRG: Piano Regolatore Generale
-* GIS: Geographic Information System
-* SIT: Sistemi Informativi Territoriali
+* item 1
+* item 2
+* item 3
+* etc.
 
+Example of numbered list:
 
+#. item 1
+#. item 2
+#. item 2
 
-
-
-
-
-
-
-.. _Gter srl: https://www.gter.it
