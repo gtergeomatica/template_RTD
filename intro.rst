@@ -22,7 +22,7 @@ Subsection
 """""""""""""""""""""""""""""""""""""""""""""""
 
 ..
-    add an anchor link to a section, below the syntax of the link (:ref:`section-anchor`) then you have to add the line (.. _section-anchor:) where the link must point
+    add an anchor link to a section, below the syntax of the link (:ref:`section-anchor`) then you have to add the line (.. _section-anchor:) where the link must point to
 
 Example of anchor to a section :ref:`section-anchor`
 
@@ -105,9 +105,16 @@ Example of bullet list:
 * item 3
 * etc.
 
-Example of numbered list:
+Example of auto-enumerated list:
 
 #. item 1
 #. item 2
-#. item 2
+#. item 3
+
+Example of enumerated list:
+
+1. item 1
+2. item 2
+5. item 3
+100. item 4
 
