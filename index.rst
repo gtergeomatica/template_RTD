@@ -7,6 +7,9 @@ IL TITOLO
 =====================================================================
 Contenuti:
 
+..
+   the items listed under the toctree element must be the same of the .rst file name
+
 .. toctree::
 
   intro
