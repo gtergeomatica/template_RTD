@@ -40,7 +40,7 @@ Example of anchor to a section :ref:`section-anchor`
 
 Text goes here **Bold** *Italic* |examplesuperscript|
 
-.. |m2| replace:: example\ :sup:`superscript`\
+.. |examplesuperscript| replace:: example\ :sup:`superscript`\
 
 .. _section-anchor:
 
