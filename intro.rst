@@ -38,9 +38,11 @@ Example of anchor to a section :ref:`section-anchor`
   :align: center
 
 
-Text goes here **Bold** *Italic* |examplesuperscript|
+Text goes here **Bold** *Italic* |examplesuperscript| |examplesubscript|
 
 .. |examplesuperscript| replace:: example\ :sup:`superscript`\
+
+.. |examplesubscript| replace:: example\ :sub:`subscript`\
 
 .. _section-anchor:
 
