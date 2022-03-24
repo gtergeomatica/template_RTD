@@ -38,7 +38,7 @@ Example of anchor to a section :ref:`section-anchor`
   :align: center
 
 
-Text goes here "double quote" “text” **Bold** *Italic* |examplesuperscript| |examplesubscript|
+Text goes here **Bold** *Italic* |examplesuperscript| |examplesubscript|
 
 .. |examplesuperscript| replace:: example\ :sup:`superscript`\
 
@@ -111,5 +111,4 @@ Example of auto-enumerated list:
 #. item 2
 #. item 3
 
-test test
 
